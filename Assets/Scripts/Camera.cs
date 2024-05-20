@@ -37,4 +37,4 @@ public class Camera : MonoBehaviour
         transform.localRotation = Quaternion.AngleAxis(-mouseLook.y, Vector3.right);
         player.transform.localRotation = Quaternion.AngleAxis(mouseLook.x, player.transform.up);
     }
-}
+}//
